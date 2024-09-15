@@ -1,8 +1,4 @@
-## Hackathon PortoHack 2024.
-
----
-
-> _TEAM Head Milie: Hackathon Porto Hack 2024
+# Hackathon PortoHack 2024 - DockDash
 
 ![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
 ![Platform](https://img.shields.io/badge/Platform-Web-blue)
@@ -10,80 +6,118 @@
 
 ---
 
-> _Prototyping: 
-
-> _Video Demo Application and API:
+> **MVP**: [Frontend DockDash](https://frontend-dash.vercel.app)
 
 ---
 
-## 🌐 Introduction
+## 🌐 Introdução
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta, nisl at dapibus commodo, dui mi scelerisque dolor, eget pretium purus ante non velit.
+O **DockDash** é uma plataforma help desk criada para otimizar o fluxo de informações entre a Autoridade Portuária de Santos (APS) e o sistema de Documentos de Transporte Eletrônicos (DTE), garantindo a integridade dos dados e disparando alertas automáticos em caso de erros. Nossa solução ajuda a:
 
-<details>
-<summary>🌟 Features</summary>
+- Prevenir erros nas operações portuárias.
+- Garantir a confiabilidade das análises futuras.
+- Reduzir o SLA (Service Level Agreement).
 
-🔹 Feature 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta, nisl at dapibus commodo, dui mi scelerisque dolor, eget pretium purus ante non velit
+**Como fazemos isso?**
 
-🔹 Feature 2
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta, nisl at dapibus commodo, dui mi scelerisque dolor, eget pretium purus ante non velit
+1. **Integração via API com o sistema APS**: Capturamos dados diretamente da API da APS, que são cruzados e validados com o sistema DTE.
+2. **Validação de dados**: A cada solicitação, o sistema compara as informações da APS com o banco de dados da ABTRA, identificando inconsistências.
+3. **Monitoramento contínuo**: O DockDash realiza três testes principais:
+   - **Teste de conectividade da API da APS**.
+   - **Validação de dados entre Supervias e ABTRA**.
+   - **Verificação de viagens inexistentes ou falhas de registro**.
 
-🔹 Feature 3
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta, nisl at dapibus commodo, dui mi scelerisque dolor, eget pretium purus ante non velit
-
-🔹 Feature 4
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta, nisl at dapibus commodo, dui mi scelerisque dolor, eget pretium purus ante non velit
-
-🔹 Feature 5
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta, nisl at dapibus commodo, dui mi scelerisque dolor, eget pretium purus ante non velit
-
-</details>
+Para cada problema encontrado, um ticket é gerado automaticamente, enviado para a equipe responsável, e o tempo de resolução é monitorado diretamente no dashboard.
 
 ---
 
-## 🛠 Installation (Mobile)
+### 🌟 Funcionalidades
 
-1. **Pre-requisites**
-    - Make sure you have Dart and Flutter installed on your machine.
+🔹 **Integração com APIs**: Conecta-se periodicamente à API da APS para obter dados atualizados.
 
-2. **Clone the Repository**
+🔹 **Validação automática de dados**: Verifica inconsistências entre os sistemas APS e DTE, disparando alertas automáticos quando necessário.
+
+🔹 **Geração automática de tickets**: Quando inconsistências são identificadas, o sistema gera tickets automaticamente para as equipes responsáveis.
+
+🔹 **Monitoramento do SLA**: Exibe tempos médios de resolução de problemas e status de tickets no dashboard.
+
+🔹 **Interface intuitiva**: Uma interface simples e amigável, permitindo a visualização clara das operações e informações.
+
+---
+
+## 🛠 Instalação (Mobile)
+
+1. **Pré-requisitos**:
+    - Certifique-se de que você tem Dart e Flutter instalados em sua máquina.
+
+2. **Clonar o Repositório**:
 
     ```bash
     git clone https://github.com/bellujrb/hackathon_portosantos/frontend
     ```
 
-3. **Install Dependencies**
+3. **Instalar Dependências**:
 
     ```bash
     flutter pub get
     ```
 
-4. **Run the App**
+4. **Executar o App**:
 
     ```bash
     flutter run
     ```
 
+## 🛠 Instalação (Jupiter)
+
+1. **Clone o repositório**:
+
+    ```bash
+    git clone https://github.com/bellujrb/hackathon_portosantos
+    ```
+
+2. **Criação do ambiente virtual**:
+
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # No Windows, usar: venv\Scripts\activate
+    ```
+
+3. **Executar o notebook Jupyter**:
+
+    ```bash
+    jupyter notebook portohack.ipynb
+    ```
+
 ---
 
-## 📂 Project File Tree
+---
+
+## 📂 Estrutura do Projeto
     
 ```
 hackathon_portosantos
 ├── frontend
 │   └── ...
+├── frontend-abtra
+│   └── ...
+├── portohack.py
 ├── README.MD
 │   └── ...
 ```
+
 ---
 
 #### `hackathon_portosantos`
 
-- `front-end`
-    - Frontend Application
-- `README.md`
-    - Documentation Project
+- **`frontend`**:
+    - Aplicação frontend que exibe os dados coletados e os tickets gerados.
+- **`frontend-abtra`**:
+    - Website mockado da ABTRA para demonstrar API
+- **`portohack.py`**:
+    - Algoritmo de analise de dados com API da APS
+- **`README.md`**:
+    - Documentação do projeto.
 
 ---
 
@@ -92,19 +126,17 @@ hackathon_portosantos
 ### Design Patterns (Mobile)
 - Singleton
 
-### External Packages (Mobile)
+### Pacotes Externos (Mobile)
 - Flutter Modular
 - Flutter SVG
 - Google Fonts
 
-### Architecture (Mobile)
+### Arquitetura (Mobile)
 - Clean Architecture
 - Modular
 
 ---
 
-## 🙏 Acknowledgments
+## 🙏 Agradecimentos
 
-Special thanks to Porto Santos for this ambitious opportunity.
-
----
+Agradecimento especial ao Porto de Santos pela oportunidade ambiciosa de transformar o setor portuário.
