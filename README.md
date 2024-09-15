@@ -12,7 +12,7 @@
 
 ## 🌐 Introdução
 
-O **DockDash** é uma plataforma help desk criada para otimizar o fluxo de informações entre a Autoridade Portuária de Santos (APS) e o sistema de Documentos de Transporte Eletrônicos (DTE), garantindo a integridade dos dados e disparando alertas automáticos em caso de erros. Nossa solução ajuda a:
+O **DockDash** é uma plataforma help desk criada para otimizar o fluxo de informações entre a (APS) e o sistema de (DTE), garantindo a integridade dos dados e disparando alertas automáticos em caso de erros. Nossa solução ajuda a:
 
 - Prevenir erros nas operações portuárias.
 - Garantir a confiabilidade das análises futuras.
