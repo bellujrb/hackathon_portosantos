@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:frontend/core/style/text_styles.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:url_launcher/url_launcher.dart'; // Importa o url_launcher
 
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({super.key});
@@ -70,7 +71,14 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                               isHoveredJupAbtra = hovering;
                             });
                           },
-                          onTap: () {},
+                          onTap: () async {
+                            const url = 'https://jup-abtra.vercel.app';
+                            if (await canLaunch(url)) {
+                              await launch(url);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
                           width: screenWidth * 0.85,
                           height: 240,
                         ),
@@ -97,7 +105,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                         const SizedBox(width: 60),
                         _buildOptionCard(
                           context,
-                          title: 'JUP Abtra',
+                          title: 'JUP ABTRA',
                           description:
                               'Veja a visão completa da JUP Abtra com os novos dados obtidos com a nossa API.',
                           isHovered: isHoveredJupAbtra,
@@ -106,7 +114,14 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                               isHoveredJupAbtra = hovering;
                             });
                           },
-                          onTap: () {},
+                          onTap: () async {
+                            const url = 'https://jup-abtra.vercel.app';
+                            if (await canLaunch(url)) {
+                              await launch(url);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
                           width: screenWidth * 0.4,
                           height: 326,
                         ),
