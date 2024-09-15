@@ -1,0 +1,108 @@
+html, body {
+    height: 100%;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.bg-primary {
+    /*
+        background-color:#0e3c58 !important;
+        background-color:#00264e !important;
+        background-color:#d6d6d6 !important;
+        background-color:#194474 !important;
+    */
+   
+     background-color:#00264e !important;
+}
+
+.bg-dark {
+    /* Data: 16/08/2019  */
+    /*background-color:#dc7145;*/
+    /* background-color: rgba(214,214,214,0.5) !important;  */
+    /*background-color: #f39223 !important; */
+}
+
+.content {
+    width: 100%;
+    /* background-color:#0e3c58 !important; */
+}
+
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-text {
+    color: rgba(255, 255, 255, .75);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar-dark .sidebar-toggle {
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar-dark .sidebar-toggle-MenuFechado{
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Cor de fundo */
+.CorFundoMenuEsquerdo {
+    background: #dc7145;
+}
+
+.imgPublico {
+ background-image:url("");
+}
+
+/* Dúvidas */
+.LinkDuvida { color:white; }
+.LinkDuvida:link { color: white; background-color: transparent; text-decoration: none; }
+.LinkDuvida:hover { color: white; background-color: transparent; text-decoration: none; }
+.LinkDuvida:active { color: white; background-color: transparent; text-decoration: none; }
+
+/* Cabeçalho Topo [NAV] */
+.NavCabecalhoTopo 
+{
+    height: 100px;
+    background-image: url("CABEÇALHO%20JUP.jpg"); 
+    background-size: cover;
+    margin: 0px;
+    padding:0px;
+    border:0px;
+}
+/* Iframe de abertura das páginas */
+.DivIframeConteudo
+{
+    height:867px;
+    background-image:url("tela1-internaNova.png"); 
+    background-size:cover;
+    background-color:#396494;  
+    /*background-position-x:left; */
+    margin:0px; 
+    padding:0px;
+    border:0px;
+}
+
+.IframePainelView
+{
+    width:100%;
+    height:860px;
+    margin:0px;
+    padding:0px;
+    border:0px; 
+    background-color: transparent; 
+    background-position:center; 
+    background-repeat:no-repeat;
+}
+
+
+
+

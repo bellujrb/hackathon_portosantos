@@ -1,0 +1,122 @@
+
+
+.bg-dark{background-color:#dc7145!important}
+
+.sidebar 
+{
+    /*
+        min-width: 290px;
+        max-width: 290px;
+    */
+    min-width: 310px;
+    max-width: 310px;
+    /*min-height: calc(100vh - 49px);*/
+    transition: all 0.3s;
+    overflow-y: auto;
+    height:867px;
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;    
+}
+
+.sidebar.toggled {
+  /*
+    margin-left: -310px;
+  */
+  
+  margin-left: -240px;
+  
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: .75rem 1rem;
+    text-decoration: none;
+}
+
+.sidebar ul ul a {
+    padding-left: 2.5rem;
+}
+
+.sidebar [data-toggle="collapse"] {
+    position: relative;
+}
+
+.sidebar [data-toggle="collapse"]:before {
+    /* content: "\f0d7"; */
+    /* content: "\f067"; */
+    content: "\f055";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 1rem;
+}
+
+.sidebar [aria-expanded="true"]:before {
+    /* content: "\f0d8"; */
+    /* content: "\f068"; */
+    content: "\f056";
+}
+
+/* Cor das letras */
+.sidebar-dark ul li a {
+    color:white;
+}
+
+/* Cor de fundo ul*/
+.sidebar-dark ul ul a {
+    background: #dc7145;
+}
+
+.sidebar-dark li li a {
+    background: #dc7145;
+}
+
+/* Class=Active */
+.sidebar-dark ul li a:hover, .sidebar-dark ul .active a {
+    color: rgba(255, 255, 255, 1);
+    background: #194474;
+}
+
+/* Cor de fundo quando item do menu espandir */
+.sidebar-dark [aria-expanded="true"] {
+    /*background:  #808080;*/
+    background:#d6d6d6;
+}
+
+.badge-point {
+    background-color: #ff6c00 !important;
+    color:black;
+}
+
+/* Barra de Rolagem */
+#DivMenuLeft::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+#DivMenuLeft::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+#DivMenuLeft::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* Barra de Rolagem */
+#DivMenuLeftMini::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+#DivMenuLeftMini::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+#DivMenuLeftMini::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}

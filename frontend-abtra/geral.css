@@ -1,0 +1,247 @@
+.aba {
+    border-width: 0px 1px 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
+}
+
+.campotexto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(183, 190, 200);
+}
+
+.campotextoDesabilitado {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    background-color: rgb(221, 221, 221);
+    border: 1px solid rgb(183, 190, 200);
+}
+
+.nomecampos {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(0, 102, 153);
+    text-decoration: none;
+    padding-left: 2px;
+}
+
+.nomecampos2 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    padding-left: 2px;
+}
+
+.nomecamposespacos {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(0, 102, 153);
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.nomedestaquecampos {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(204, 102, 102);
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.mensagemErro {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(204, 102, 102);
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.conteudo {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: rgb(47, 83, 155);
+    text-decoration: none;
+    font-size: 11px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.tituloArearestrita {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(86, 98, 112);
+    padding-left: 2px;
+}
+
+.divisaoconteudoesquerda {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.divisaoconteudosuperior {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.TDverde {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(51, 153, 102);
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2px 2px 2px 3px;
+}
+
+.TDverde2 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(51, 153, 102);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2px 2px 2px 3px;
+}
+
+.TDvermelho {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(204, 102, 102);
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2px 2px 2px 3px;
+}
+
+.TDvermelho2 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(204, 102, 102);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2px 2px 2px 3px;
+}
+
+.TDcinzaClaro {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2px 2px 2px 3px;
+}
+
+.TDcinzaClaro2 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2px 2px 2px 3px;
+}
+
+.TDcinzaClaro_Selecionado {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(153, 153, 153);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2px 2px 2px 3px;
+}
+
+.TDcinzaClaro2_Selecionado {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(153, 153, 153);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2px 2px 2px 3px;
+}
+
+.TituloTabs {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgb(0, 51, 102);
+    background-color: rgb(153, 204, 255);
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 2px 2px 2px 8px;
+}
+
+.bordaGeral {
+    border-right: 2px solid rgb(213, 213, 213);
+    border-left: 2px solid rgb(213, 213, 213);
+}
+
+.campoDetalhes {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.campoDetalhesDestaque {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: rgb(204, 102, 102);
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.nomecampodestaque {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.div {
+    margin: 0px;
+}
+
+div.tudo {
+    position: relative;
+}
+
+div.texto,
+div.sombra {
+    font-size: 30px;
+    font-family: Arial;
+    font-style: italic;
+}
+
+div.texto {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    color: rgb(128, 128, 128);
+    text-indent: 10px;
+    font-weight: bold;
+}
+
+div.sombra {
+    position: absolute;
+    left: 2px;
+    top: -2px;
+    color: rgb(192, 192, 192);
+    font-weight: bold;
+}
